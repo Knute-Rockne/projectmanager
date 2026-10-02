@@ -1,0 +1,19 @@
+Hostinger upload settings
+
+Do not use the GitHub URL field. Upload this zip.
+
+Websites -> Add Website -> Node.js web app -> Upload your files
+
+Node.js version: 22
+Build command: npm run build
+Entry file: .output/server/index.mjs
+Start command: node .output/server/index.mjs
+
+Environment variables:
+HOST=0.0.0.0
+XAI_API_KEY=your key from console.x.ai
+
+Do not set PORT if Hostinger already assigns one.
+Leave XAI_API_KEY unset if you only need the portfolio, documents, schedule, and cost register. The Grok chats need the key.
+
+This copy is set to run on Hostinger. The app in Grok stays set up for Publish.
